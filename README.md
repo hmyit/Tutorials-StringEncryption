@@ -9,7 +9,7 @@ String encryption is a protection method to convert Readable string to Unreadabl
 First of all we have to Select the application that we want to Obfuscate it.
 
 ```csharp
-ModuleDef md = ModuleDefMD.Load(@"AppPath"); //replace AppPath with your Application you want to Obfuscate it.
+ModuleDef md = ModuleDefMD.Load(@"AppPath"); //replace AppPath with your Application Path you want to Obfuscate it.
 ```
 Then we have to load the Types from the Module.
 ```csharp
